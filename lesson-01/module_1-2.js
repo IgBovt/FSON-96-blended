@@ -57,18 +57,27 @@
 //TODO: 5 ===================================
 // Перепишіть if..else на тернарний оператор, за допомогою декількох операторів '?'.
 
-// const login = 'Директор';
-// let message = '';
+// const login = undefined;
+// let message = "";
 
-// if (login === 'Співробітник') {
-//   message = 'Привіт';
-// } else if (login == 'Директор') {
-//   message = 'Вітаю';
-// } else if (login == '') {
-//   message = 'Немає логіну';
-// } else {
-//   message = '';
-// }
+// // if (login === 'Співробітник') {
+// //   message = 'Привіт';
+// // } else if (login == 'Директор') {
+// //   message = 'Вітаю';
+// // } else if (login == '') {
+// //   message = 'Немає логіну';
+// // } else {
+// //   message = '';
+// // }
+
+// message =
+//   login === "Співробітник"
+//     ? "Привіт"
+//     : login === "Директор"
+//     ? "Вітаю"
+//     : login === ""
+//     ? "Немає логіну"
+//     : "";
 
 // console.log(message);
 
