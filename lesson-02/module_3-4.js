@@ -62,7 +62,15 @@
 // менше з чисел a, b
 // Потрібно додати перевірку, що функція отримує числа
 
+// function min(a, b) {
+//   if (typeof a !== "number" || typeof b !== "number") {
+//     return "Arguments must be numbers!";
+//   }
+//   return a < b ? a : b;
+// }
+
 // const result = min(10, 5);
+
 // console.log(result); // 5
 
 //TODO:============task-05==============
