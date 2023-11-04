@@ -99,7 +99,21 @@
 //аргументів і повертає їхнє середнє значення.
 //Додати перевірку, що аргументи це числа.
 
-// console.log(calculateAverage(10, 10, 20, 200));
+// function calculateAverage(...args) {
+// //  const args = arguments;
+// let sum = 0;
+// let totalCount = 0;
+// for (const arg of args) {
+//     if (typeof arg !== "number") {
+//         continue;
+//     }
+//     sum += arg;
+//     totalCount += 1;
+// }
+//  return sum / totalCount;
+// }
+
+// console.log(calculateAverage(10, 10, 20, "200"));
 
 //TODO:=============task-08=================
 // Написати функцію, яка приймає рядок і повертає кількість голосних літер у цьому рядку. `Містить ${count} голосних`
