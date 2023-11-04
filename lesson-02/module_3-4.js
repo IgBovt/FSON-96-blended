@@ -153,7 +153,22 @@
 //TODO:============task-2==============================================
 // Створіть об'єкт "прямокутник" з властивостями "довжина" та "ширина". Напишіть метод "calculateArea", який буде обчислювати площу прямокутника на основі його довжини та ширини.
 
+// const square = {
+//   width: 20,
+//   heigth: 15,
+//   calculateArea() {
+//     return this.width * this.heigth;
+//   },
+// };
+
+// const squareA = Object.create(square);
+// squareA.heigth = 30;
+// squareA.width = 30;
+
+// console.log(square);
+// console.log(squareA);
 // console.log(square.calculateArea());
+// console.log(squareA.calculateArea());
 
 //TODO:============task-3==============================================
 // Створіть об'єкт "магазин" зі списком товарів. Напишіть метод "hasProduct", який буде перевіряти, чи є певний товар в наявності на складі магазину.
