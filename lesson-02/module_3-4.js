@@ -12,20 +12,16 @@
 // style[i] = "Класика";
 // // style[1] = "Класика";
 
-
 // console.log(style.shift());
 // style.unshift("Реп", "Реггі");
 
 // const index = style.indexOf("Класика");
-
-
 
 // console.log(style.slice(index, 3));
 
 // const array = [1, 2]
 // const newArray = array.concat(style);
 // console.log(newArray);
-
 
 //TODO:=========task-02=================
 // Перевірити, чи містить масив заданий елемент. Якщо містить, видалити його, якщо ні - додати в кінець масиву.
@@ -35,10 +31,6 @@
 //  index===-1?array.push(elem): array.splice(index,1);
 //  console.log(array);
 
- 
-    
- 
-
 //TODO:=========task-03=================
 //Напиши функцію findSmallerNumber(numbers)
 //яка шукає найменше число в масиві.
@@ -46,7 +38,24 @@
 
 // const numbers = [2, 5, 35, 56, 12, 24, 7, 80, 3];
 
-// console.log(smallestNumber); // 2
+// function findSmallerNumber(numbers) {
+//   if (!Array.isArray(numbers) && numbers.length !== 0) {
+//     // throw new Error("Arguments must be an array!");
+//     return "Arguments must be an array!";
+//   }
+
+//   let min = numbers[0];
+
+//   for (const number of numbers) {
+//     if (number < min) {
+//       min = number;
+//     }
+//     // console.log(number);
+//   }
+//   return min;
+// }
+
+// console.log(findSmallerNumber(7, 78, 989, 565)); // 2
 
 //TODO:============task-04==============
 // Напишіть функцію min(a, b), яка повертає
