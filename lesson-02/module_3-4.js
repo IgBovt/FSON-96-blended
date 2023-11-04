@@ -8,9 +8,15 @@
 
 //TODO:=========task-02=================
 // Перевірити, чи містить масив заданий елемент. Якщо містить, видалити його, якщо ні - додати в кінець масиву.
+//  const array = ['JavaScript', 'HTML', 'CSS', 'SS'];
+//  const elem = 'SS';
+//  const index=array.indexOf(elem);
+//  index===-1?array.push(elem): array.splice(index,1);
+//  console.log(array);
 
-// const array = ['JavaScript', 'HTML', 'CSS'];
-// const elem = 'SS';
+ 
+    
+ 
 
 //TODO:=========task-03=================
 //Напиши функцію findSmallerNumber(numbers)
