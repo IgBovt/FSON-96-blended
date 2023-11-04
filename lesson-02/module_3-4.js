@@ -118,8 +118,17 @@
 //TODO:=============task-08=================
 // Написати функцію, яка приймає рядок і повертає кількість голосних літер у цьому рядку. `Містить ${count} голосних`
 
-// const str = 'This is
-// console.log(countVowels(str));
+const str = "This is a new line";
+const vowels = ["a", "e", "i", "o", "u"];
+
+function countVowels(string) {
+  let count = 0;
+  for (const letter of string) {
+    count += vowels.includes(letter) ? 1 : 0;
+  }
+  return `Містить ${count} голосних`;
+}
+console.log(countVowels(str));
 
 //TODO:=============task-09===============================================================
 // Написати функцію, яка приймає два параметри - рядок та символ - і повертає новий рядок,
