@@ -65,7 +65,7 @@
 
 // const people = [
 //   { name: "John", age: 27 },
-//   { name: "Jane", age: 31 },
+//   { name: "Jane", age: 31             },
 //   { name: "Bob", age: 21 },
 // ];
 
@@ -133,6 +133,7 @@
 //   { name: 'Jane', age: 31 },
 //   { name: 'Bob', age: 19 },
 // ];
+// const getAge = (array, age) => array.filter(user => user.age > age);
 
 // const res = getAge(user, 25);
 // console.log(res);
@@ -142,16 +143,20 @@
 
 // const numbers = [1, 2, 3, 4, 5];
 
+// const sum = (array) => array.reduce((acc,number) => acc + number ,0)
+
 // const res = sum(numbers);
 // console.log(res);
 
 //TODO:=========task-11=================
 // У вас є масив чисел, і вам потрібно знайти середнє значення цих чисел. Напишіть функцію, яка приймає масив чисел і повертає середнє значення.
 
-// const arr = [1, 2, 3, 4, 5];
+const arr = [1, 2, 3, 4, 5];
 
-// const res = averageValue(arr);
-// console.log(res);
+const averageValue = (array) => array.reduce((acc, number) => acc + number / array.length ,0)
+
+const res = averageValue(arr);
+console.log(res);
 
 // ! this
 //TODO:=========task-01=================
