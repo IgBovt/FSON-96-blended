@@ -4,7 +4,7 @@
 
 // const performOperation = (a, b, callback) =>  callback(a * b);
 // const callbackFunction = (number) => (number % 2 === 0) ? Math.pow(number, 2) :  Math.sqrt(number);
-    
+
 // const result = performOperation(20, 40, callbackFunction);
 // console.log(result);
 
@@ -15,11 +15,26 @@
 // повертатись перше парне число. При використанні другого - має повертатись перше слово у масиві, що починається з літери
 // "O" у будь - якому реєстрі.
 
-// const numbers = [1, 3, 5, 7, 9, 20];
-// const words = ['apple', 'banana', 'orange', 'pear'];
+// const numbers = [1, 2, 5, 7, 9, 20];
+// const words = ["apple", "banana", "orange", "pear"];
+
+// const findElement = (array, callback) => {
+//   let result = null;
+//   array.forEach((element) => {
+//     if (callback(element) && result === null) {
+//       result = element;
+//     }
+//   });
+//   return result;
+// };
+
+// const isEven = (number) => number % 2 === 0;
+// const startWithO = (string) => string.toLowerCase().startsWith("o");
 
 // const res = findElement(numbers, isEven);
+// const res1 = findElement(words, startWithO);
 // console.log(res);
+// console.log(res1);
 
 //! Array methods
 //TODO:=========task-01=================
