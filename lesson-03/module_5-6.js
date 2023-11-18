@@ -77,7 +77,8 @@
 //TODO:=========task-04=================
 //  Дано масив чисел [2, 4, 6, 8, 10]. Перевірте, чи є кожен елемент масиву парним. Очікуваний результат: true.
 
-// const numbers = [2, 4, 6, 8, 10];
+// const numbers = [2, 4, 5, 8, 10];
+// const checkEvenArray = (array) => array.every((number) => number % 2 === 0);
 
 // const res = checkEvenArray(numbers);
 // console.log(res);
@@ -86,22 +87,26 @@
 // Дано масив чисел [1, 2, 3, 4, 5]. Знайдіть перший елемент, більший за 3. Очікуваний результат: 4.
 
 // const numbers = [1, 2, 3, 4, 5];
+// const getNumber = (array) => array.find((number) => number > 3);
 
-// const res = getNumber(arr, 3);
+// const res = getNumber(numbers, 3);
 // console.log(res);
 
 //TODO:=========task-06=================
 // Відсортуйте масив чисел [4, 2, 5, 1, 3] у порядку зростання. Очікуваний результат: [1, 2, 3, 4, 5].
 
-// const numbersArray = [4, 2, 5, 1, 3];
-
+// const numbersArray = [4, 200, 5000, 1, 3];
+// const sortedArray = (array) => [...array].sort((a, b) => a - b);
+// console.log(numbersArray);
 // const res = sortedArray(numbersArray);
 // console.log(res);
+// console.log(numbersArray);
 
 //TODO:===============task-07===============================
 // Відсортуйте масив рядків ["banana", "orange", "apple", "pear"] у порядку алфавіту. Очікуваний результат: ["apple", "banana", "orange", "pear"].
 
-// const stringArray = ['banana', 'orange', 'apple', 'pear'];
+// const stringArray = ["banana", "orange", "apple", "pear"];
+// const sortedArray = (array) => array.sort((a, b) => b.localeCompare(a));
 
 // const res = sortedArray(stringArray);
 // console.log(res);
