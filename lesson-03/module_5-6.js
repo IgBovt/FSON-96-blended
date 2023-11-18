@@ -2,6 +2,9 @@
 //TODO:============task-01=========================
 // Напишіть функцію, яка приймає два числа і колбек-функцію. Функція повинна помножити числа між собою та передати результат дії до колбек-функції. Колбек-функція повинна, у разі, якщо, це число є парним - помножити це число на себе, якщо ні - взяти квадратний корінь з цього числа, та вивести результат у консоль лог.
 
+// const performOperation = (a, b, callback) =>  callback(a * b);
+// const callbackFunction = (number) => (number % 2 === 0) ? Math.pow(number, 2) :  Math.sqrt(number);
+    
 // const result = performOperation(20, 40, callbackFunction);
 // console.log(result);
 
