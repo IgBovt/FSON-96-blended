@@ -40,7 +40,10 @@
 //TODO:=========task-01=================
 // Дано масив чисел [1, 2, 3, 4, 5]. Створіть новий масив, що містить квадрати кожного елементу вхідного масиву. Очікуваний результат: [1, 4, 9, 16, 25].
 
-// const res = getNewArray([1, 2, 3], 5);
+// const array = [1, 2, 3, 4, 5];
+// const getNewArray = (array, pow) => array.map((number) => number ** pow);
+
+// const res = getNewArray(array, 2);
 // console.log(res);
 
 //TODO:=========task-02=================
@@ -52,6 +55,8 @@
 //   { id: 3, values: [7, 8, 9] },
 // ];
 
+// const flatArray = (array) => array.flatMap((element) => element.values);
+
 // const res = flatArray(data);
 // console.log(res);
 
@@ -59,10 +64,12 @@
 // Дано масив об'єктів {name: "John", age: 27}, {name: "Jane", age: 31}, {name: "Bob", age: 19}. Перевірте, чи є хоча б один об'єкт з віком менше 20 років. Очікуваний результат: true.
 
 // const people = [
-//   { name: 'John', age: 27 },
-//   { name: 'Jane', age: 31 },
-//   { name: 'Bob', age: 19 },
+//   { name: "John", age: 27 },
+//   { name: "Jane", age: 31 },
+//   { name: "Bob", age: 21 },
 // ];
+
+// const checkAge = (array) => array.some((person) => person.age < 20);
 
 // const res = checkAge(people);
 // console.log(res);
