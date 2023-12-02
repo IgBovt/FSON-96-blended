@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <h1 id="title">Базові операції з DOM</h1>
+    <ul class="list">
+      <li data-topic="navigation">
+        <h3>Навігація по DOM</h3>
+        <p>
+          Доступ до DOM починається з об'єкта document, з нього можна дістатися
+          до будь-яких елементів.
+        </p>
+      </li>
+      <li data-topic="search">
+        <h3>Пошук елементів</h3>
+        <p>
+          Група методів elem.querySelector* - це сучасний стандарт для пошуку
+          елементів.
+        </p>
+      </li>
+      <li data-topic="props">
+        <h3 class="completed">Властивості та атрибути</h3>
+        <p>
+          elem.textContent, elem.classList, elem.style, elem.hasAttribute(name),
+          elem.getAttribute(name), elem.setAttribute(name, value),
+          elem.removeAttribute(name)
+        </p>
+      </li>
+      <li data-topic="manipulation">
+        <h3>Створення та видалення елементів</h3>
+        <p>
+          DOM API дозволяє не тільки вибирати або змінювати вже існуючі, але й
+          видаляти, а також створювати нові елементи, після чого додавати їх в
+          документ.
+        </p>
+      </li>
+    </ul>
+    <script type="module" src="./js/module7.js"></script>
+  </body>
+</html>
