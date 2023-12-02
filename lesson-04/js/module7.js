@@ -25,3 +25,47 @@ changeColor.forEach((element) => {
 });
 const liEl = document.querySelector("li[data-topic=navigation]");
 // console.log(liEl);
+
+liEl.style.backgroundColor = "yellow";
+
+liEl.lastElementChild.textContent = "Я змінив тут текст!";
+
+const currentTopic = "manipulation";
+
+const findElement = document.querySelector(`[data-topic = ${currentTopic}]`);
+
+findElement.style.backgroundColor = "blue";
+
+const title = document.querySelector(".completed");
+
+title.parentNode.remove();
+
+const parEL = document.createElement("p");
+
+parEL.textContent = "Об'єктна модель документа (Document Object Model)";
+
+titleEl.after(parEL);
+
+const subtitleEl = document.createElement("h3");
+subtitleEl.textContent = "Властивість innerHTML";
+
+const pageEL = document.createElement("p");
+
+pageEL.textContent =
+  "Ще один спосіб створити DOM-елементи і помістити їх в дерево - це використовувати рядки з тегами і дозволити браузеру зробити всю важку роботу";
+
+const listItemEl = document.createElement("li");
+
+listItemEl.appendChild(subtitleEl);
+listItemEl.appendChild(pageEL);
+
+// classEl.append(listItemEl);
+
+const markup = `<li>
+      <h3>Властивість innerHTML</h3>
+      <p>Ще один спосіб створити DOM-елементи і помістити їх в дерево - це використовувати рядки з тегами і дозволити браузеру зробити всю важку роботу</p>
+    </li>`;
+
+classEl.insertAdjacentHTML("beforeend", markup);
+
+classEl.innerHTML = "";
