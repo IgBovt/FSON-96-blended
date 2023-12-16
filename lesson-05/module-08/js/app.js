@@ -6,6 +6,14 @@
  * при кліку на елемент меню, розкривай блок з текстом.При повторному кліку по елементу,
  * розкритий текст приховується.Нажимаючи на інші елементи меню, попередньо відкриті елементи не закриваються.
  */
+import { listEl } from "./refs.js";
+
+listEl.addEventListener("click", handleClick);
+
+function handleClick(event) {
+  console.log(event.currentTarget);
+  console.log(event.target);
+}
 
 //TODO:=========task-02=======Pagination==========
 /**
@@ -13,3 +21,4 @@
  * Використовуй поширення подій.Додавай клас`active` на поточну сторінку. Створи допоміжну функцію`updateActivePage`, яка повинна обновляти активний клас.
  * Функція`handleClick`повинна викликатися коли відбувається клік на елементі`pagination`.
  */
+console.log("Hello");
