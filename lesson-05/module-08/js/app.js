@@ -1,14 +1,12 @@
-// Модуль 7. Заняття 13. Поширення подій.
-
 //TODO:=========task-01=======Accordion==========
 /**
  * Викоритовуй шаблон акордеон меню з файлу[accordion.html](./accordion.html) та напиши наступний функціонал:
  * при кліку на елемент меню, розкривай блок з текстом.При повторному кліку по елементу,
  * розкритий текст приховується.Нажимаючи на інші елементи меню, попередньо відкриті елементи не закриваються.
  */
-import { listEl } from "./refs.js";
+import { listEl } from './refs.js';
 
-listEl.addEventListener("click", handleClick);
+listEl.addEventListener('click', handleClick);
 
 function handleClick(event) {
   console.log(event.currentTarget);
@@ -21,4 +19,4 @@ function handleClick(event) {
  * Використовуй поширення подій.Додавай клас`active` на поточну сторінку. Створи допоміжну функцію`updateActivePage`, яка повинна обновляти активний клас.
  * Функція`handleClick`повинна викликатися коли відбувається клік на елементі`pagination`.
  */
-console.log("Hello");
+console.log('Hello');

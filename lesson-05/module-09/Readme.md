@@ -1,5 +1,3 @@
-# Модуль 8. Заняття 16. Local storage
-
 ## 1. Counter
 
 - Використовуй html з файлу [counter.html](./counter.html)
