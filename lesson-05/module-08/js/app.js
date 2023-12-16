@@ -11,8 +11,11 @@ import { listEl } from "./refs.js";
 listEl.addEventListener("click", handleClick);
 
 function handleClick(event) {
-  console.log(event.currentTarget);
-  console.log(event.target);
+  // console.log(event.currentTarget);
+
+  if (event.target.nodeName !== "BUTTON") return;
+  event.target.nextElementSibling.classList.toggle("active");
+  // console.log(event.target.nodeName);
 }
 
 //TODO:=========task-02=======Pagination==========
